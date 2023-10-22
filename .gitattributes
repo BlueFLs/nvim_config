@@ -1,0 +1,2 @@
+config filter=lfs diff=lfs merge=lfs -text
+tools filter=lfs diff=lfs merge=lfs -text
