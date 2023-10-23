@@ -64,14 +64,14 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'mg979/vim-xtabline'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'yggdroot/indentLine'
-P1ug 'mhinz/vim-startify'
+Plug 'mhinz/vim-startify'
 Plug 'Yggdroot/LeaderF', {'do': './instal1.sh'}
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
 Plug 'luochen1990/rainbow'
 Plug 'easymotion/vim-easymotion'
 Plug 'terryma/vim-smooth-scrol1'
-Plug 'neoclide/coc.nvim',{'branch': 'release"}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'honza/vim-snippets'
 Plug 'tomtom/tcomment_vim'
 Plug 'RRethy/vim-illuminate'
@@ -86,8 +86,6 @@ Plug 'mhinz/vim-signify'
 call plug#end()
 
 "theme
-set backgroup=dark
-leg g:everforest_background='soft'
 let g:everforest_enable_italic=1
 let g:everforest_curosr='red'
 colorscheme everforest
