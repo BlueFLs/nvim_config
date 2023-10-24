@@ -225,7 +225,7 @@ let g:xtabline_settings.other_tabs_paths = 0
 let g:xtabline_lazy= 1
 
 "easymotion
-nmap <leader>s <Plus>(easymotion-s2)
+nmap <leader>s <Plug>(easymotion-s2)
 
 "illuminate
 let g:illuminate_delay = 750
@@ -353,6 +353,7 @@ nmap tg :TagbarToggle<CR>
 let g:tagbar_autofocus = 1
 
 "vim-which-key
+let g:which_key_map = {}
 nnoremap <silent> <leader> :silent WhichKey '<Space>'<CR>
 vnoremap <silent> <leader> :silent <c-u> :silent WhichKeyVisual '<Space>'<CR>
 
