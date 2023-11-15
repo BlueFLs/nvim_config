@@ -1,2 +1,3 @@
 # nvim_config
-neovim windows下配置
+gvim x64 windows下配置
+neovim也可使用
